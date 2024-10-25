@@ -1,0 +1,31 @@
+{
+  "titulo": "Introducción a Spring Boot",
+  "descripcion": "Spring Boot es un marco que facilita la creación de aplicaciones Spring listas para producción. Proporciona un enfoque sencillo para construir aplicaciones Java sin necesidad de configurar todo desde cero.",
+  "secciones": [
+    {
+      "titulo": "¿Qué es Spring Boot?",
+      "contenido": "Spring Boot es una herramienta que permite a los desarrolladores configurar automáticamente un proyecto Spring, eliminando la necesidad de definir una configuración manual extensa. Se basa en el marco Spring, un conjunto de herramientas y bibliotecas que simplifican el desarrollo de aplicaciones Java."
+    },
+    {
+      "titulo": "Características principales",
+      "contenido": "Spring Boot ofrece características como la configuración automática de proyectos, integración de servidores web embebidos como Tomcat o Jetty, y la capacidad de crear aplicaciones Java en muy poco tiempo."
+    },
+    {
+      "titulo": "Ventajas de usar Spring Boot",
+      "contenido": [
+        "Facilita el desarrollo rápido de aplicaciones.",
+        "Incluye servidores embebidos para probar aplicaciones sin configuraciones externas.",
+        "Proporciona una arquitectura escalable y modular.",
+        "Integra de manera fluida herramientas como Maven y Gradle para la gestión de dependencias."
+      ]
+    },
+    {
+      "titulo": "Ejemplo de código básico",
+      "contenido": "Aquí tienes un ejemplo de una aplicación simple con Spring Boot:\n\njava\nimport org.springframework.boot.SpringApplication;\nimport org.springframework.boot.autoconfigure.SpringBootApplication;\n\n@SpringBootApplication\npublic class MiAplicacion {\n    public static void main(String[] args) {\n        SpringApplication.run(MiAplicacion.class, args);\n    }\n}\n"
+    },
+    {
+      "titulo": "Conclusión",
+      "contenido": "Spring Boot es una excelente opción para desarrolladores Java que buscan construir aplicaciones modernas y eficientes de manera rápida. Su configuración automática y su integración con el ecosistema de Spring lo hacen ideal para proyectos tanto pequeños como grandes."
+    }
+  ]
+}

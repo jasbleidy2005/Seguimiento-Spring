@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuario>
+    <nombre>Juan Perez</nombre>
+    <edad>30</edad>
+    <correo>juan.perez@example.com</correo>
+    <direccion>
+        <calle>Calle Falsa 123</calle>
+        <ciudad>Ciudad Ejemplo</ciudad>
+        <codigoPostal>12345</codigoPostal>
+    </direccion>
+    <telefonos>
+        <telefono tipo="casa">555-1234</telefono>
+        <telefono tipo="movil">555-5678</telefono>
+    </telefonos>
+    <hobbies>
+        <hobby>fútbol</hobby>
+        <hobby>lectura</hobby>
+        <hobby>videojuegos</hobby>
+    </hobbies>
+</usuario>
